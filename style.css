@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1097px;
+  margin: 0 auto;
+}
+
+.square {
+  width: 352px;
+  height: 352px;
+  background-color: #ff0000;
+  border: 1px black;
+}
