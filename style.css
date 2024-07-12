@@ -56,12 +56,6 @@ body {
   font-size: 64px;
 }
 
-.square .square_animated {
-  animation-name: flashing;
-  animation-duration: 1.5s;
-  animation-timing-function: ease;
-}
-
 @media (max-width: 1097px) {
   .container {
     width: 100%;
@@ -119,28 +113,5 @@ body {
   .row3 {
     justify-content: center;
     flex-direction: column-reverse;
-  }
-}
-
-@keyframes flashing {
-  from {
-    background-color: #ff0000;
-    animation-duration: 1.5s;
-  }
-  25% {
-    background-color: #0500ff;
-    animation-duration: 1.5s;
-  }
-  50% {
-    background-color: #52ff00;
-    animation-duration: 1.5s;
-  }
-  75% {
-    background-color: #ff0000;
-    animation-duration: 1.5s;
-  }
-  to {
-    background-color: #ff0000;
-    animation-duration: 1.5s;
   }
 }
